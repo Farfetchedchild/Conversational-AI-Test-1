@@ -4,12 +4,16 @@
   "description": "Test 1 for 'init.ai'",
   "main": "behavior/scripts/index.js",
   "scripts": {
-    "start": "initai-dev-server"
+    "start": "initai-dev-server",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "<my-name> <<my-email-address>>",
   "license": "UNLICENSED",
   "dependencies": {
     "initai-dev-server": "^0.4.8",
-    "initai-node": "~0.0.7"
-  }
+    "initai-node": "~0.0.7",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
