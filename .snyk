@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - initai-dev-server > rollbar > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > engine.io > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-adapter > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-parser > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2022-10-08T20:05:58.988Z'
+  'npm:hoek:20180212':
+    - initai-dev-server > request > hawk > hoek:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > request > hawk > boom > hoek:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > request > hawk > sntp > hoek:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-08T20:05:58.988Z'
+  SNYK-JS-LODASH-567746:
+    - initai-node > lodash:
+        patched: '2022-10-08T20:05:58.988Z'
+  'npm:ms:20170412':
+    - initai-dev-server > rollbar > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > engine.io > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-adapter > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-parser > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-10-08T20:05:58.988Z'
+  'npm:negotiator:20160616':
+    - initai-dev-server > socket.io > engine.io > accepts > negotiator:
+        patched: '2022-10-08T20:05:58.988Z'
+  'npm:tunnel-agent:20170305':
+    - initai-dev-server > request > tunnel-agent:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > restify > tunnel-agent:
+        patched: '2022-10-08T20:05:58.988Z'
+  'npm:ws:20160920':
+    - initai-dev-server > socket.io > engine.io > ws:
+        patched: '2022-10-08T20:05:58.988Z'
+    - initai-dev-server > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2022-10-08T20:05:58.988Z'
